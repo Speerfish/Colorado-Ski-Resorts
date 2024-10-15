@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_94337f9dd16552065017164a86f82854 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_94337f9dd16552065017164a86f82854" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_94337f9dd16552065017164a86f82854 = L.map(
+                "map_94337f9dd16552065017164a86f82854",
+                {
+                    center: [39.5501, -105.7821],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c4d29509b0ff9ebdbf9053de8ea6f4d6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c4d29509b0ff9ebdbf9053de8ea6f4d6.addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var marker_77a55c0389e323386958e5038c6f607b = L.marker(
+                [39.6421261, -105.872464],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_094f1c9e3eb213d6e2a56b3bed93c4e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_77a55c0389e323386958e5038c6f607b.setIcon(icon_094f1c9e3eb213d6e2a56b3bed93c4e3);
+        
+    
+        var popup_f4056669ae88983f1c7e48a1aa923054 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_511ba874a75c9cd6218c79fbdc3b118d = $(`<div id="html_511ba874a75c9cd6218c79fbdc3b118d" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Arapahoe Basin<br>         <b>Nearest City:</b> Dillon<br>         <b>Skiable Area (acres):</b> 1,428<br>         <b>Top Elevation (feet):</b> 13,050<br>         <b>Vertical (feet):</b> 2,530<br>         <b>Runs:</b> 147<br>         <b>Lifts:</b> 9<br>         <b>Snowfall (in/year):</b> 314<br>         <b>Website:</b> <a href='http://arapahoebasin.com/' target='_blank'>http://arapahoebasin.com/</a><br>         <b>Phone:</b> <a href='tel:888-272-7246'>888-272-7246</a><br>         <b>Email:</b> <a href='mailto:guestservices@a-basin.net' target='_blank'>guestservices@a-basin.net</a><br>         </div>`)[0];
+                popup_f4056669ae88983f1c7e48a1aa923054.setContent(html_511ba874a75c9cd6218c79fbdc3b118d);
+            
+        
+
+        marker_77a55c0389e323386958e5038c6f607b.bindPopup(popup_f4056669ae88983f1c7e48a1aa923054)
+        ;
+
+        
+    
+    
+            var marker_c535e4a5b895bc415668e7f740d84ac2 = L.marker(
+                [39.181111, -106.856389],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_622f46594ddf59991c03b9c0c622c8b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c535e4a5b895bc415668e7f740d84ac2.setIcon(icon_622f46594ddf59991c03b9c0c622c8b7);
+        
+    
+        var popup_9ae0424e56498ed42fc2cf6e9fdcaf47 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2af1cf9f27e23bffdacb85910a8656ec = $(`<div id="html_2af1cf9f27e23bffdacb85910a8656ec" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Aspen Highlands<br>         <b>Nearest City:</b> Aspen<br>         <b>Skiable Area (acres):</b> 1,040<br>         <b>Top Elevation (feet):</b> 12,392<br>         <b>Vertical (feet):</b> 4,352<br>         <b>Runs:</b> 117<br>         <b>Lifts:</b> 5<br>         <b>Snowfall (in/year):</b> 300<br>         <b>Website:</b> <a href='https://www.aspensnowmass.com/four-mountains/aspen-highlands' target='_blank'>https://www.aspensnowmass.com/four-mountains/aspen-highlands</a><br>         <b>Phone:</b> <a href='tel:800-525-6200'>800-525-6200</a><br>         <b>Email:</b> <a href='mailto:contactus@aspensnowmass.com' target='_blank'>contactus@aspensnowmass.com</a><br>         </div>`)[0];
+                popup_9ae0424e56498ed42fc2cf6e9fdcaf47.setContent(html_2af1cf9f27e23bffdacb85910a8656ec);
+            
+        
+
+        marker_c535e4a5b895bc415668e7f740d84ac2.bindPopup(popup_9ae0424e56498ed42fc2cf6e9fdcaf47)
+        ;
+
+        
+    
+    
+            var marker_1dd7ec02294f10396c20024475eaed9c = L.marker(
+                [39.186485, -106.818264],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_5fc7e7606992b2b07e6048fdc45060be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1dd7ec02294f10396c20024475eaed9c.setIcon(icon_5fc7e7606992b2b07e6048fdc45060be);
+        
+    
+        var popup_3a5d745865567a20f600f2572910b416 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_38e0c8bc3bb927ebbda5fdccf227f6b5 = $(`<div id="html_38e0c8bc3bb927ebbda5fdccf227f6b5" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Aspen Mountain<br>         <b>Nearest City:</b> Aspen<br>         <b>Skiable Area (acres):</b> 675<br>         <b>Top Elevation (feet):</b> 11,212<br>         <b>Vertical (feet):</b> 3,267<br>         <b>Runs:</b> 76<br>         <b>Lifts:</b> 8<br>         <b>Snowfall (in/year):</b> 300<br>         <b>Website:</b> <a href='https://www.aspensnowmass.com/four-mountains/aspen-mountain' target='_blank'>https://www.aspensnowmass.com/four-mountains/aspen-mountain</a><br>         <b>Phone:</b> <a href='tel:800-525-6200'>800-525-6200</a><br>         <b>Email:</b> <a href='mailto:contactus@aspensnowmass.com' target='_blank'>contactus@aspensnowmass.com</a><br>         </div>`)[0];
+                popup_3a5d745865567a20f600f2572910b416.setContent(html_38e0c8bc3bb927ebbda5fdccf227f6b5);
+            
+        
+
+        marker_1dd7ec02294f10396c20024475eaed9c.bindPopup(popup_3a5d745865567a20f600f2572910b416)
+        ;
+
+        
+    
+    
+            var marker_4ae0b640a05ed639ac82870fe5c3e5c1 = L.marker(
+                [39.602398, -106.516914],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_55a73b398493b87d15603f12fed2da62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4ae0b640a05ed639ac82870fe5c3e5c1.setIcon(icon_55a73b398493b87d15603f12fed2da62);
+        
+    
+        var popup_ef0e277216771dd92dab74fd61f89f9b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a95633f2b5df49a76bc02e3b6fd49a50 = $(`<div id="html_a95633f2b5df49a76bc02e3b6fd49a50" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Beaver Creek<br>         <b>Nearest City:</b> Beaver Creek<br>         <b>Skiable Area (acres):</b> 1,832<br>         <b>Top Elevation (feet):</b> 11,440<br>         <b>Vertical (feet):</b> 3,340<br>         <b>Runs:</b> 150<br>         <b>Lifts:</b> 23<br>         <b>Snowfall (in/year):</b> 325<br>         <b>Website:</b> <a href='https://www.beavercreek.com/the-mountain/about-the-mountain/mountain-info.aspx' target='_blank'>https://www.beavercreek.com/the-mountain/about-the-mountain/mountain-info.aspx</a><br>         <b>Phone:</b> <a href='tel:970-754-0005'>970-754-0005</a><br>         <b>Email:</b> <a href='mailto:info@beavercreekresortcompany.com' target='_blank'>info@beavercreekresortcompany.com</a><br>         </div>`)[0];
+                popup_ef0e277216771dd92dab74fd61f89f9b.setContent(html_a95633f2b5df49a76bc02e3b6fd49a50);
+            
+        
+
+        marker_4ae0b640a05ed639ac82870fe5c3e5c1.bindPopup(popup_ef0e277216771dd92dab74fd61f89f9b)
+        ;
+
+        
+    
+    
+            var marker_8d43102f74a0940b1280cdae38ea40e3 = L.marker(
+                [39.47388, -106.07391],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_1a1b6e094d15b5ae473aa6feb3e4f269 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8d43102f74a0940b1280cdae38ea40e3.setIcon(icon_1a1b6e094d15b5ae473aa6feb3e4f269);
+        
+    
+        var popup_7bb06b5186508b4791c15f01fb05543f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ada9987c9b060d5f2cd2b33caa9755aa = $(`<div id="html_ada9987c9b060d5f2cd2b33caa9755aa" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Breckenridge<br>         <b>Nearest City:</b> Breckenridge<br>         <b>Skiable Area (acres):</b> 2,908<br>         <b>Top Elevation (feet):</b> 12,998<br>         <b>Vertical (feet):</b> 3,398<br>         <b>Runs:</b> 187<br>         <b>Lifts:</b> 34<br>         <b>Snowfall (in/year):</b> 282<br>         <b>Website:</b> <a href='https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx' target='_blank'>https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx</a><br>         <b>Phone:</b> <a href='tel:970-453-5000'>970-453-5000</a><br>         <b>Email:</b> <a href='mailto:breckinfo@vailresorts.com' target='_blank'>breckinfo@vailresorts.com</a><br>         </div>`)[0];
+                popup_7bb06b5186508b4791c15f01fb05543f.setContent(html_ada9987c9b060d5f2cd2b33caa9755aa);
+            
+        
+
+        marker_8d43102f74a0940b1280cdae38ea40e3.bindPopup(popup_7bb06b5186508b4791c15f01fb05543f)
+        ;
+
+        
+    
+    
+            var marker_0b63809025490120fe178bdce1e63737 = L.marker(
+                [39.18361111, -106.8966667],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_85a1633960797a0d669ab4807f150cb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0b63809025490120fe178bdce1e63737.setIcon(icon_85a1633960797a0d669ab4807f150cb5);
+        
+    
+        var popup_de5ba6e8e92fc06ff7a13134b8c4ce7c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8096748ca3e6a8050f7e3773e574bf5f = $(`<div id="html_8096748ca3e6a8050f7e3773e574bf5f" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Buttermilk<br>         <b>Nearest City:</b> Aspen<br>         <b>Skiable Area (acres):</b> 470<br>         <b>Top Elevation (feet):</b> 9,900<br>         <b>Vertical (feet):</b> 2,030<br>         <b>Runs:</b> 44<br>         <b>Lifts:</b> 8<br>         <b>Snowfall (in/year):</b> 200<br>         <b>Website:</b> <a href='https://www.aspensnowmass.com/four-mountains/buttermilk' target='_blank'>https://www.aspensnowmass.com/four-mountains/buttermilk</a><br>         <b>Phone:</b> <a href='tel:800-525-6200'>800-525-6200</a><br>         <b>Email:</b> <a href='mailto:contactus@aspensnowmass.com' target='_blank'>contactus@aspensnowmass.com</a><br>         </div>`)[0];
+                popup_de5ba6e8e92fc06ff7a13134b8c4ce7c.setContent(html_8096748ca3e6a8050f7e3773e574bf5f);
+            
+        
+
+        marker_0b63809025490120fe178bdce1e63737.bindPopup(popup_de5ba6e8e92fc06ff7a13134b8c4ce7c)
+        ;
+
+        
+    
+    
+            var marker_3363df1fa27dbf8287f4abf01b742761 = L.marker(
+                [39.3605437, -106.3022475],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_5918e80afd24ccff6dc2c50ecaf84a2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3363df1fa27dbf8287f4abf01b742761.setIcon(icon_5918e80afd24ccff6dc2c50ecaf84a2f);
+        
+    
+        var popup_688804be36d0cefb199a25980050ca61 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1daf22f8d8fed27267fae7f0e9fbe01e = $(`<div id="html_1daf22f8d8fed27267fae7f0e9fbe01e" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Ski Cooper<br>         <b>Nearest City:</b> Leadville<br>         <b>Skiable Area (acres):</b> 470<br>         <b>Top Elevation (feet):</b> 11,700<br>         <b>Vertical (feet):</b> 1,200<br>         <b>Runs:</b> 60<br>         <b>Lifts:</b> 5<br>         <b>Snowfall (in/year):</b> 260<br>         <b>Website:</b> <a href='https://www.skicooper.com/' target='_blank'>https://www.skicooper.com/</a><br>         <b>Phone:</b> <a href='tel:719-486-2277'>719-486-2277</a><br>         <b>Email:</b> <a href='mailto:info@skicooper.com' target='_blank'>info@skicooper.com</a><br>         </div>`)[0];
+                popup_688804be36d0cefb199a25980050ca61.setContent(html_1daf22f8d8fed27267fae7f0e9fbe01e);
+            
+        
+
+        marker_3363df1fa27dbf8287f4abf01b742761.bindPopup(popup_688804be36d0cefb199a25980050ca61)
+        ;
+
+        
+    
+    
+            var marker_020a88db00f43f5a769522c2d81fadaf = L.marker(
+                [39.499917, -106.155921],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_4092be69302b3c9b662cfd6f4d99dc2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_020a88db00f43f5a769522c2d81fadaf.setIcon(icon_4092be69302b3c9b662cfd6f4d99dc2f);
+        
+    
+        var popup_de06ae9305a279c74dcaaec9cb8adeea = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_dbe9f6adcb90b53df96e60adb86efc9b = $(`<div id="html_dbe9f6adcb90b53df96e60adb86efc9b" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Copper Mountain<br>         <b>Nearest City:</b> Copper Mountain<br>         <b>Skiable Area (acres):</b> 2,490<br>         <b>Top Elevation (feet):</b> 12,441<br>         <b>Vertical (feet):</b> 2,738<br>         <b>Runs:</b> 140<br>         <b>Lifts:</b> 24<br>         <b>Snowfall (in/year):</b> 278<br>         <b>Website:</b> <a href='https://www.coppercolorado.com/' target='_blank'>https://www.coppercolorado.com/</a><br>         <b>Phone:</b> <a href='tel:866-656-1546'>866-656-1546</a><br>         <b>Email:</b> <a href='mailto:info@coppercolorado.com' target='_blank'>info@coppercolorado.com</a><br>         </div>`)[0];
+                popup_de06ae9305a279c74dcaaec9cb8adeea.setContent(html_dbe9f6adcb90b53df96e60adb86efc9b);
+            
+        
+
+        marker_020a88db00f43f5a769522c2d81fadaf.bindPopup(popup_de06ae9305a279c74dcaaec9cb8adeea)
+        ;
+
+        
+    
+    
+            var marker_633ab814534a50416a0b16de7309d014 = L.marker(
+                [38.8698, -106.984],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_d0a0f8b38b985f92e6c1a6c94ba1591e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_633ab814534a50416a0b16de7309d014.setIcon(icon_d0a0f8b38b985f92e6c1a6c94ba1591e);
+        
+    
+        var popup_6d19cddd5b44359d5d54ff86b1905a94 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_96e6da0b6aabd56298b3c9dbf60b5c2b = $(`<div id="html_96e6da0b6aabd56298b3c9dbf60b5c2b" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Crested Butte<br>         <b>Nearest City:</b> Crested Butte<br>         <b>Skiable Area (acres):</b> 1,547<br>         <b>Top Elevation (feet):</b> 12,162<br>         <b>Vertical (feet):</b> 2,787<br>         <b>Runs:</b> 121<br>         <b>Lifts:</b> 15<br>         <b>Snowfall (in/year):</b> 253<br>         <b>Website:</b> <a href='https://www.skicb.com/the-mountain/about-the-mountain/mountain-info.aspx' target='_blank'>https://www.skicb.com/the-mountain/about-the-mountain/mountain-info.aspx</a><br>         <b>Phone:</b> <a href='tel:877-547-5143'>877-547-5143</a><br>         <b>Email:</b> <a href='mailto:info@skicb.com' target='_blank'>info@skicb.com</a><br>         </div>`)[0];
+                popup_6d19cddd5b44359d5d54ff86b1905a94.setContent(html_96e6da0b6aabd56298b3c9dbf60b5c2b);
+            
+        
+
+        marker_633ab814534a50416a0b16de7309d014.bindPopup(popup_6d19cddd5b44359d5d54ff86b1905a94)
+        ;
+
+        
+    
+    
+            var marker_79eb014f8c09641e4c986ddac3a32f97 = L.marker(
+                [39.685, -105.519],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_ac321997b9dfcee5b655babb8b6d42a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_79eb014f8c09641e4c986ddac3a32f97.setIcon(icon_ac321997b9dfcee5b655babb8b6d42a9);
+        
+    
+        var popup_b1b402ca216678fd7ebcd8193845cc8d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_870df34621b8da947d87681597c0c304 = $(`<div id="html_870df34621b8da947d87681597c0c304" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Echo Mountain<br>         <b>Nearest City:</b> Evergreen<br>         <b>Skiable Area (acres):</b> 60<br>         <b>Top Elevation (feet):</b> 10,650<br>         <b>Vertical (feet):</b> 600<br>         <b>Runs:</b> 13<br>         <b>Lifts:</b> 3<br>         <b>Snowfall (in/year):</b> 275<br>         <b>Website:</b> <a href='https://echomtn.com/' target='_blank'>https://echomtn.com/</a><br>         <b>Phone:</b> <a href='tel:970-531-5038'>970-531-5038</a><br>         <b>Email:</b> <a href='mailto:info@echomtn.com' target='_blank'>info@echomtn.com</a><br>         </div>`)[0];
+                popup_b1b402ca216678fd7ebcd8193845cc8d.setContent(html_870df34621b8da947d87681597c0c304);
+            
+        
+
+        marker_79eb014f8c09641e4c986ddac3a32f97.bindPopup(popup_b1b402ca216678fd7ebcd8193845cc8d)
+        ;
+
+        
+    
+    
+            var marker_279d2b998c0e37d62bafeb263c7051c5 = L.marker(
+                [39.937529, -105.582795],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_805d71dc6817a3ec885f96bc7d5f14a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_279d2b998c0e37d62bafeb263c7051c5.setIcon(icon_805d71dc6817a3ec885f96bc7d5f14a2);
+        
+    
+        var popup_14b1796c10dd3cb461382aba8858d6d6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5d8f71f093b7d8b81d29cb2bc8a44609 = $(`<div id="html_5d8f71f093b7d8b81d29cb2bc8a44609" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Eldora<br>         <b>Nearest City:</b> Nederland<br>         <b>Skiable Area (acres):</b> 680<br>         <b>Top Elevation (feet):</b> 10,600<br>         <b>Vertical (feet):</b> 1,400<br>         <b>Runs:</b> 63<br>         <b>Lifts:</b> 10<br>         <b>Snowfall (in/year):</b> 225<br>         <b>Website:</b> <a href='https://www.eldora.com/' target='_blank'>https://www.eldora.com/</a><br>         <b>Phone:</b> <a href='tel:303-440-8700'>303-440-8700</a><br>         <b>Email:</b> <a href='mailto:info@eldora.com' target='_blank'>info@eldora.com</a><br>         </div>`)[0];
+                popup_14b1796c10dd3cb461382aba8858d6d6.setContent(html_5d8f71f093b7d8b81d29cb2bc8a44609);
+            
+        
+
+        marker_279d2b998c0e37d62bafeb263c7051c5.bindPopup(popup_14b1796c10dd3cb461382aba8858d6d6)
+        ;
+
+        
+    
+    
+            var marker_5f08b341bc684c7b234acc4df228735c = L.marker(
+                [39.92, -105.79],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_e7f4887f60b2571a233f58bf41935787 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5f08b341bc684c7b234acc4df228735c.setIcon(icon_e7f4887f60b2571a233f58bf41935787);
+        
+    
+        var popup_8891a27f7796f0d4a3fbd56e93779502 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_41880dfeb9014f4848ced07020cf57da = $(`<div id="html_41880dfeb9014f4848ced07020cf57da" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Granby Ranch<br>         <b>Nearest City:</b> Granby<br>         <b>Skiable Area (acres):</b> 406<br>         <b>Top Elevation (feet):</b> 9,202<br>         <b>Vertical (feet):</b> 1,000<br>         <b>Runs:</b> 35<br>         <b>Lifts:</b> 6<br>         <b>Snowfall (in/year):</b> 200<br>         <b>Website:</b> <a href='https://granbyranch.com/' target='_blank'>https://granbyranch.com/</a><br>         <b>Phone:</b> <a href='tel:888-850-4615'>888-850-4615</a><br>         <b>Email:</b> <a href='mailto:info@granbyranch.com' target='_blank'>info@granbyranch.com</a><br>         </div>`)[0];
+                popup_8891a27f7796f0d4a3fbd56e93779502.setContent(html_41880dfeb9014f4848ced07020cf57da);
+            
+        
+
+        marker_5f08b341bc684c7b234acc4df228735c.bindPopup(popup_8891a27f7796f0d4a3fbd56e93779502)
+        ;
+
+        
+    
+    
+            var marker_9aac272251586f1a08808d6fae03730e = L.marker(
+                [37.299593, -108.055101],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_534c079358de309b48a66c35389aba99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9aac272251586f1a08808d6fae03730e.setIcon(icon_534c079358de309b48a66c35389aba99);
+        
+    
+        var popup_4ce4e6defc9485070bbe17633fd4fd61 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1508adbe996b0e5cddf9d9296e939e26 = $(`<div id="html_1508adbe996b0e5cddf9d9296e939e26" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Hesperus<br>         <b>Nearest City:</b> Hesperus<br>         <b>Skiable Area (acres):</b> 60<br>         <b>Top Elevation (feet):</b> 8,880<br>         <b>Vertical (feet):</b> 700<br>         <b>Runs:</b> 13<br>         <b>Lifts:</b> 2<br>         <b>Snowfall (in/year):</b> 150<br>         <b>Website:</b> <a href='https://www.ski-hesperus.com' target='_blank'>https://www.ski-hesperus.com</a><br>         <b>Phone:</b> <a href='tel:970-385-2199'>970-385-2199</a><br>         <b>Email:</b> <a href='mailto:info@ski-hesperus.com' target='_blank'>info@ski-hesperus.com</a><br>         </div>`)[0];
+                popup_4ce4e6defc9485070bbe17633fd4fd61.setContent(html_1508adbe996b0e5cddf9d9296e939e26);
+            
+        
+
+        marker_9aac272251586f1a08808d6fae03730e.bindPopup(popup_4ce4e6defc9485070bbe17633fd4fd61)
+        ;
+
+        
+    
+    
+            var marker_8fdfeed8fea9a61750ddda8fa1b85dff = L.marker(
+                [40.483, -106.837],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_6f9ebe4a063b52a0cb810b0dc72b14bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8fdfeed8fea9a61750ddda8fa1b85dff.setIcon(icon_6f9ebe4a063b52a0cb810b0dc72b14bb);
+        
+    
+        var popup_43947e3eb7fb62ceef2db4d57fd27304 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c69dcbac8b724ec7b5fb2a2e7a14e835 = $(`<div id="html_c69dcbac8b724ec7b5fb2a2e7a14e835" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Howelsen<br>         <b>Nearest City:</b> Steamboat Springs<br>         <b>Skiable Area (acres):</b> 50<br>         <b>Top Elevation (feet):</b> 7,136<br>         <b>Vertical (feet):</b> 440<br>         <b>Runs:</b> 17<br>         <b>Lifts:</b> 1<br>         <b>Snowfall (in/year):</b> 170<br>         <b>Website:</b> <a href='https://steamboatsprings.net/131/Howelsen-Hill-Ski-Area' target='_blank'>https://steamboatsprings.net/131/Howelsen-Hill-Ski-Area</a><br>         <b>Phone:</b> <a href='tel:970-879-4300 '>970-879-4300 </a><br>         <b>Email:</b> <a href='mailto:info@steamboatsprings.net' target='_blank'>info@steamboatsprings.net</a><br>         </div>`)[0];
+                popup_43947e3eb7fb62ceef2db4d57fd27304.setContent(html_c69dcbac8b724ec7b5fb2a2e7a14e835);
+            
+        
+
+        marker_8fdfeed8fea9a61750ddda8fa1b85dff.bindPopup(popup_43947e3eb7fb62ceef2db4d57fd27304)
+        ;
+
+        
+    
+    
+            var marker_144905c952415761a561438c23f76833 = L.marker(
+                [37.811, -107.657],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_4c8b915d6e6ae133d63eccf20366657d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_144905c952415761a561438c23f76833.setIcon(icon_4c8b915d6e6ae133d63eccf20366657d);
+        
+    
+        var popup_2639c69f7d9131d1ced23b7c290014e0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_94c7d3378da0649c0031259dbfd50733 = $(`<div id="html_94c7d3378da0649c0031259dbfd50733" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Kendall<br>         <b>Nearest City:</b> Silverton<br>         <b>Skiable Area (acres):</b> 16<br>         <b>Top Elevation (feet):</b> 9,540<br>         <b>Vertical (feet):</b> 240<br>         <b>Runs:</b> 11<br>         <b>Lifts:</b> 1<br>         <b>Snowfall (in/year):</b> 200<br>         <b>Website:</b> <a href='https://www.skikendall.com/' target='_blank'>https://www.skikendall.com/</a><br>         <b>Phone:</b> <a href='tel:970-759-5557'>970-759-5557</a><br>         <b>Email:</b> <a href='mailto:info@skikendall.com' target='_blank'>info@skikendall.com</a><br>         </div>`)[0];
+                popup_2639c69f7d9131d1ced23b7c290014e0.setContent(html_94c7d3378da0649c0031259dbfd50733);
+            
+        
+
+        marker_144905c952415761a561438c23f76833.bindPopup(popup_2639c69f7d9131d1ced23b7c290014e0)
+        ;
+
+        
+    
+    
+            var marker_8475c599acd047419137fd73a8e43b76 = L.marker(
+                [39.6073, -105.9701],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_b043d54a1484802151c0bbd933cce92d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8475c599acd047419137fd73a8e43b76.setIcon(icon_b043d54a1484802151c0bbd933cce92d);
+        
+    
+        var popup_9dc1cf7aa3e9aec60d38dce82da2c643 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_eed38f8293aee14215c56f427896b86e = $(`<div id="html_eed38f8293aee14215c56f427896b86e" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Keystone<br>         <b>Nearest City:</b> Keystone<br>         <b>Skiable Area (acres):</b> 3,148<br>         <b>Top Elevation (feet):</b> 12,408<br>         <b>Vertical (feet):</b> 3,128<br>         <b>Runs:</b> 128<br>         <b>Lifts:</b> 20<br>         <b>Snowfall (in/year):</b> 235<br>         <b>Website:</b> <a href='https://www.keystoneresort.com/the-mountain/about-the-mountain/mountain-info.aspx' target='_blank'>https://www.keystoneresort.com/the-mountain/about-the-mountain/mountain-info.aspx</a><br>         <b>Phone:</b> <a href='tel:970-754-0001'>970-754-0001</a><br>         <b>Email:</b> <a href='mailto:keystoneinfo@vailresorts.com' target='_blank'>keystoneinfo@vailresorts.com</a><br>         </div>`)[0];
+                popup_9dc1cf7aa3e9aec60d38dce82da2c643.setContent(html_eed38f8293aee14215c56f427896b86e);
+            
+        
+
+        marker_8475c599acd047419137fd73a8e43b76.bindPopup(popup_9dc1cf7aa3e9aec60d38dce82da2c643)
+        ;
+
+        
+    
+    
+            var marker_9fb4f44e85fa2bffb96fbd451f4a67b0 = L.marker(
+                [39.680654, -105.895886],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_f8a25ad900da48bc737aaa2f2a7800dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9fb4f44e85fa2bffb96fbd451f4a67b0.setIcon(icon_f8a25ad900da48bc737aaa2f2a7800dc);
+        
+    
+        var popup_d59c0abda08dc76fcd523f9c11672fb7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3c3ba4f79e9934247ade22857f84b5ab = $(`<div id="html_3c3ba4f79e9934247ade22857f84b5ab" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Loveland<br>         <b>Nearest City:</b> Dillon<br>         <b>Skiable Area (acres):</b> 1,800<br>         <b>Top Elevation (feet):</b> 13,010<br>         <b>Vertical (feet):</b> 2,210<br>         <b>Runs:</b> 94<br>         <b>Lifts:</b> 11<br>         <b>Snowfall (in/year):</b> 422<br>         <b>Website:</b> <a href='https://skiloveland.com/the-mountain/trail-map-mountain-stats/' target='_blank'>https://skiloveland.com/the-mountain/trail-map-mountain-stats/</a><br>         <b>Phone:</b> <a href='tel:800-736-3SKI'>800-736-3SKI</a><br>         <b>Email:</b> <a href='mailto:Loveland@skiloveland.com' target='_blank'>Loveland@skiloveland.com</a><br>         </div>`)[0];
+                popup_d59c0abda08dc76fcd523f9c11672fb7.setContent(html_3c3ba4f79e9934247ade22857f84b5ab);
+            
+        
+
+        marker_9fb4f44e85fa2bffb96fbd451f4a67b0.bindPopup(popup_d59c0abda08dc76fcd523f9c11672fb7)
+        ;
+
+        
+    
+    
+            var marker_20072a36844033f7e8024e3e8c4c734b = L.marker(
+                [38.51307207, -106.3302545],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_2aa4f4492e37035c0734b229bb4b7122 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_20072a36844033f7e8024e3e8c4c734b.setIcon(icon_2aa4f4492e37035c0734b229bb4b7122);
+        
+    
+        var popup_4ee6fe10ebefe822752ed5a77ee8673f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_727a293563c26a6b962cf363598d2cad = $(`<div id="html_727a293563c26a6b962cf363598d2cad" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Monarch<br>         <b>Nearest City:</b> Salida<br>         <b>Skiable Area (acres):</b> 800<br>         <b>Top Elevation (feet):</b> 11,960<br>         <b>Vertical (feet):</b> 1,170<br>         <b>Runs:</b> 54<br>         <b>Lifts:</b> 5<br>         <b>Snowfall (in/year):</b> 284<br>         <b>Website:</b> <a href='https://skimonarch.com/' target='_blank'>https://skimonarch.com/</a><br>         <b>Phone:</b> <a href='tel:719-530-5000'>719-530-5000</a><br>         <b>Email:</b> <a href='mailto:info@skimonarch.com' target='_blank'>info@skimonarch.com</a><br>         </div>`)[0];
+                popup_4ee6fe10ebefe822752ed5a77ee8673f.setContent(html_727a293563c26a6b962cf363598d2cad);
+            
+        
+
+        marker_20072a36844033f7e8024e3e8c4c734b.bindPopup(popup_4ee6fe10ebefe822752ed5a77ee8673f)
+        ;
+
+        
+    
+    
+            var marker_11e1d52c7308528aa95e29aeadea2cd2 = L.marker(
+                [39.0674809, -108.1589662],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_8271aefbef778d34e7ffdf7128a2909a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_11e1d52c7308528aa95e29aeadea2cd2.setIcon(icon_8271aefbef778d34e7ffdf7128a2909a);
+        
+    
+        var popup_5b9264ed2b5d57ab083d208757ade6f0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b2e91adac3f4d1d5fcab9acc2e285fc1 = $(`<div id="html_b2e91adac3f4d1d5fcab9acc2e285fc1" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Powderhorn<br>         <b>Nearest City:</b> Grand Junction<br>         <b>Skiable Area (acres):</b> 1,600<br>         <b>Top Elevation (feet):</b> 9,850<br>         <b>Vertical (feet):</b> 1,650<br>         <b>Runs:</b> 50<br>         <b>Lifts:</b> 4<br>         <b>Snowfall (in/year):</b> 250<br>         <b>Website:</b> <a href='https://www.powderhorn.com/' target='_blank'>https://www.powderhorn.com/</a><br>         <b>Phone:</b> <a href='tel:1-970-268-5700'>1-970-268-5700</a><br>         <b>Email:</b> <a href='mailto:ski@powderhorn.com' target='_blank'>ski@powderhorn.com</a><br>         </div>`)[0];
+                popup_5b9264ed2b5d57ab083d208757ade6f0.setContent(html_b2e91adac3f4d1d5fcab9acc2e285fc1);
+            
+        
+
+        marker_11e1d52c7308528aa95e29aeadea2cd2.bindPopup(popup_5b9264ed2b5d57ab083d208757ade6f0)
+        ;
+
+        
+    
+    
+            var marker_2b5e5a01bab1f1f95f16cbca30413f90 = L.marker(
+                [37.62444, -107.82812],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_6265931d021173d4089d87f090872c9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2b5e5a01bab1f1f95f16cbca30413f90.setIcon(icon_6265931d021173d4089d87f090872c9d);
+        
+    
+        var popup_2af17857465f782f1a82d34cf6afe7bc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_48f90c1dc4dc080674401712d726718f = $(`<div id="html_48f90c1dc4dc080674401712d726718f" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Purgatory<br>         <b>Nearest City:</b> Durango<br>         <b>Skiable Area (acres):</b> 1,650<br>         <b>Top Elevation (feet):</b> 10,822<br>         <b>Vertical (feet):</b> 2,029<br>         <b>Runs:</b> 105<br>         <b>Lifts:</b> 12<br>         <b>Snowfall (in/year):</b> 260<br>         <b>Website:</b> <a href='https://www.purgatory.ski/' target='_blank'>https://www.purgatory.ski/</a><br>         <b>Phone:</b> <a href='tel:970-385-2100'>970-385-2100</a><br>         <b>Email:</b> <a href='mailto:info@purgatory.ski' target='_blank'>info@purgatory.ski</a><br>         </div>`)[0];
+                popup_2af17857465f782f1a82d34cf6afe7bc.setContent(html_48f90c1dc4dc080674401712d726718f);
+            
+        
+
+        marker_2b5e5a01bab1f1f95f16cbca30413f90.bindPopup(popup_2af17857465f782f1a82d34cf6afe7bc)
+        ;
+
+        
+    
+    
+            var marker_17b2d613a8e71397dc6a91b091936889 = L.marker(
+                [37.82, -107.66],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_7069df8a24882070d766c0d8899bc6fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_17b2d613a8e71397dc6a91b091936889.setIcon(icon_7069df8a24882070d766c0d8899bc6fd);
+        
+    
+        var popup_44e4b78accb5302d99f2eeb5b49250d7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8a5a241aeb402e85d1621d5d8241016d = $(`<div id="html_8a5a241aeb402e85d1621d5d8241016d" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Silverton Mountain<br>         <b>Nearest City:</b> Silverton<br>         <b>Skiable Area (acres):</b> 1,819<br>         <b>Top Elevation (feet):</b> 13,487<br>         <b>Vertical (feet):</b> 3,087<br>         <b>Runs:</b> 69<br>         <b>Lifts:</b> 1<br>         <b>Snowfall (in/year):</b> 400<br>         <b>Website:</b> <a href='https://silvertonmountain.com/mountain/stats/' target='_blank'>https://silvertonmountain.com/mountain/stats/</a><br>         <b>Phone:</b> <a href='tel:970-387-5706'>970-387-5706</a><br>         <b>Email:</b> <a href='mailto:info@silvertonmountain.com' target='_blank'>info@silvertonmountain.com</a><br>         </div>`)[0];
+                popup_44e4b78accb5302d99f2eeb5b49250d7.setContent(html_8a5a241aeb402e85d1621d5d8241016d);
+            
+        
+
+        marker_17b2d613a8e71397dc6a91b091936889.bindPopup(popup_44e4b78accb5302d99f2eeb5b49250d7)
+        ;
+
+        
+    
+    
+            var marker_a270afcb908c7f800eeb6bcb5a45f61a = L.marker(
+                [39.19694444, -106.9444444],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_daf1c02fdf27be5551c8652ba7cf6a86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a270afcb908c7f800eeb6bcb5a45f61a.setIcon(icon_daf1c02fdf27be5551c8652ba7cf6a86);
+        
+    
+        var popup_d5acce4775b83076e04354dffed637f9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_21fd7cf27f593486fd15a556df7f491e = $(`<div id="html_21fd7cf27f593486fd15a556df7f491e" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Snowmass<br>         <b>Nearest City:</b> Snowmass Village<br>         <b>Skiable Area (acres):</b> 3,339<br>         <b>Top Elevation (feet):</b> 12,510<br>         <b>Vertical (feet):</b> 4,406<br>         <b>Runs:</b> 98<br>         <b>Lifts:</b> 21<br>         <b>Snowfall (in/year):</b> 295<br>         <b>Website:</b> <a href='https://www.aspensnowmass.com/four-mountains/snowmass' target='_blank'>https://www.aspensnowmass.com/four-mountains/snowmass</a><br>         <b>Phone:</b> <a href='tel:800-525-6200'>800-525-6200</a><br>         <b>Email:</b> <a href='mailto:contactus@aspensnowmass.com' target='_blank'>contactus@aspensnowmass.com</a><br>         </div>`)[0];
+                popup_d5acce4775b83076e04354dffed637f9.setContent(html_21fd7cf27f593486fd15a556df7f491e);
+            
+        
+
+        marker_a270afcb908c7f800eeb6bcb5a45f61a.bindPopup(popup_d5acce4775b83076e04354dffed637f9)
+        ;
+
+        
+    
+    
+            var marker_b7f6bd0eadf382347c1adb358ea45bcf = L.marker(
+                [40.8, -106.95],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_256889eb667e9d6344d243785529e300 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b7f6bd0eadf382347c1adb358ea45bcf.setIcon(icon_256889eb667e9d6344d243785529e300);
+        
+    
+        var popup_7df3cf96604e31ebc42bc2d08998fd87 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_844155f942be1a0aa9beb60f5c1f8a73 = $(`<div id="html_844155f942be1a0aa9beb60f5c1f8a73" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Steamboat<br>         <b>Nearest City:</b> Steamboat Springs<br>         <b>Skiable Area (acres):</b> 3,741<br>         <b>Top Elevation (feet):</b> 10,568<br>         <b>Vertical (feet):</b> 3,668<br>         <b>Runs:</b> 169<br>         <b>Lifts:</b> 18<br>         <b>Snowfall (in/year):</b> 368<br>         <b>Website:</b> <a href='https://www.steamboat.com/the-mountain/mountain-stats' target='_blank'>https://www.steamboat.com/the-mountain/mountain-stats</a><br>         <b>Phone:</b> <a href='tel:800-922-2722'>800-922-2722</a><br>         <b>Email:</b> <a href='mailto:info@steamboat.com' target='_blank'>info@steamboat.com</a><br>         </div>`)[0];
+                popup_7df3cf96604e31ebc42bc2d08998fd87.setContent(html_844155f942be1a0aa9beb60f5c1f8a73);
+            
+        
+
+        marker_b7f6bd0eadf382347c1adb358ea45bcf.bindPopup(popup_7df3cf96604e31ebc42bc2d08998fd87)
+        ;
+
+        
+    
+    
+            var marker_b6b3d64d8240219e0bd9d9b0c6d973ef = L.marker(
+                [39.3997841, -107.3409507],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_5ccdd9417ce205c856ffa28f21607883 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b6b3d64d8240219e0bd9d9b0c6d973ef.setIcon(icon_5ccdd9417ce205c856ffa28f21607883);
+        
+    
+        var popup_f9978b152d60cdd59771c670ae6cb428 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d444ed0bec62c06b9045f2ea44c78875 = $(`<div id="html_d444ed0bec62c06b9045f2ea44c78875" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Sunlight<br>         <b>Nearest City:</b> Glenwood Springs<br>         <b>Skiable Area (acres):</b> 680<br>         <b>Top Elevation (feet):</b> 9,895<br>         <b>Vertical (feet):</b> 2,010<br>         <b>Runs:</b> 67<br>         <b>Lifts:</b> 4<br>         <b>Snowfall (in/year):</b> 252<br>         <b>Website:</b> <a href='https://sunlightmtn.com' target='_blank'>https://sunlightmtn.com</a><br>         <b>Phone:</b> <a href='tel:800-445-7931'>800-445-7931</a><br>         <b>Email:</b> <a href='mailto:info@sunlightmtn.com' target='_blank'>info@sunlightmtn.com</a><br>         </div>`)[0];
+                popup_f9978b152d60cdd59771c670ae6cb428.setContent(html_d444ed0bec62c06b9045f2ea44c78875);
+            
+        
+
+        marker_b6b3d64d8240219e0bd9d9b0c6d973ef.bindPopup(popup_f9978b152d60cdd59771c670ae6cb428)
+        ;
+
+        
+    
+    
+            var marker_d0f3b35440f7d978b5e83000905dbb90 = L.marker(
+                [37.94, -107.82],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_5ed9420d030e544734939f153fec5c1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d0f3b35440f7d978b5e83000905dbb90.setIcon(icon_5ed9420d030e544734939f153fec5c1a);
+        
+    
+        var popup_08f469625652d1bb23b60afdd79adfd7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b27ae72b8b358a9b49e50453d4e495d1 = $(`<div id="html_b27ae72b8b358a9b49e50453d4e495d1" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Telluride<br>         <b>Nearest City:</b> Telluride<br>         <b>Skiable Area (acres):</b> 2,000<br>         <b>Top Elevation (feet):</b> 13,150<br>         <b>Vertical (feet):</b> 3,790<br>         <b>Runs:</b> 148<br>         <b>Lifts:</b> 17<br>         <b>Snowfall (in/year):</b> 276<br>         <b>Website:</b> <a href='https://www.telluride.com/' target='_blank'>https://www.telluride.com/</a><br>         <b>Phone:</b> <a href='tel:888-605-2578'>888-605-2578</a><br>         <b>Email:</b> <a href='mailto:info@telski.com' target='_blank'>info@telski.com</a><br>         </div>`)[0];
+                popup_08f469625652d1bb23b60afdd79adfd7.setContent(html_b27ae72b8b358a9b49e50453d4e495d1);
+            
+        
+
+        marker_d0f3b35440f7d978b5e83000905dbb90.bindPopup(popup_08f469625652d1bb23b60afdd79adfd7)
+        ;
+
+        
+    
+    
+            var marker_e9b5cfc8d5d3a4a284886a4c31ec96b0 = L.marker(
+                [39.6325, -106.3783333],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_9ba6d4543565bfeab05d216c2544d4a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e9b5cfc8d5d3a4a284886a4c31ec96b0.setIcon(icon_9ba6d4543565bfeab05d216c2544d4a1);
+        
+    
+        var popup_7424f75881a1d82cd06b53796d92e4cd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4d88e817d4a8856f32a4e911b1cbffce = $(`<div id="html_4d88e817d4a8856f32a4e911b1cbffce" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Vail<br>         <b>Nearest City:</b> Vail<br>         <b>Skiable Area (acres):</b> 5,317<br>         <b>Top Elevation (feet):</b> 11,570<br>         <b>Vertical (feet):</b> 3,450<br>         <b>Runs:</b> 195<br>         <b>Lifts:</b> 31<br>         <b>Snowfall (in/year):</b> 354<br>         <b>Website:</b> <a href='https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx' target='_blank'>https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx</a><br>         <b>Phone:</b> <a href='tel:888-500-5155'>888-500-5155</a><br>         <b>Email:</b> <a href='mailto:vailinfo@vailresorts.com' target='_blank'>vailinfo@vailresorts.com</a><br>         </div>`)[0];
+                popup_7424f75881a1d82cd06b53796d92e4cd.setContent(html_4d88e817d4a8856f32a4e911b1cbffce);
+            
+        
+
+        marker_e9b5cfc8d5d3a4a284886a4c31ec96b0.bindPopup(popup_7424f75881a1d82cd06b53796d92e4cd)
+        ;
+
+        
+    
+    
+            var marker_0cf6db659ce5f9d2c6285a6697a3d364 = L.marker(
+                [39.88, -105.75],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_314e42a15164b86c03bf8c2916047994 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0cf6db659ce5f9d2c6285a6697a3d364.setIcon(icon_314e42a15164b86c03bf8c2916047994);
+        
+    
+        var popup_5fb86d70323a0e5cba68aec23e9c45d8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cd607188dc90b8cdade4650be1fc067b = $(`<div id="html_cd607188dc90b8cdade4650be1fc067b" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Winter Park<br>         <b>Nearest City:</b> Winter Park<br>         <b>Skiable Area (acres):</b> 3,081<br>         <b>Top Elevation (feet):</b> 12,060<br>         <b>Vertical (feet):</b> 3,060<br>         <b>Runs:</b> 166<br>         <b>Lifts:</b> 23<br>         <b>Snowfall (in/year):</b> 347<br>         <b>Website:</b> <a href='https://www.winterparkresort.com' target='_blank'>https://www.winterparkresort.com</a><br>         <b>Phone:</b> <a href='tel:970-726-5514'>970-726-5514</a><br>         <b>Email:</b> <a href='mailto:wpinfo@winterparkresort.com' target='_blank'>wpinfo@winterparkresort.com</a><br>         </div>`)[0];
+                popup_5fb86d70323a0e5cba68aec23e9c45d8.setContent(html_cd607188dc90b8cdade4650be1fc067b);
+            
+        
+
+        marker_0cf6db659ce5f9d2c6285a6697a3d364.bindPopup(popup_5fb86d70323a0e5cba68aec23e9c45d8)
+        ;
+
+        
+    
+    
+            var marker_1b47143cbfd2baadb7af6deb9ccc098d = L.marker(
+                [37.48302755, -106.7974048],
+                {}
+            ).addTo(map_94337f9dd16552065017164a86f82854);
+        
+    
+            var icon_7f7b29b93e1df9e805b553c6c238d147 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "skiing", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1b47143cbfd2baadb7af6deb9ccc098d.setIcon(icon_7f7b29b93e1df9e805b553c6c238d147);
+        
+    
+        var popup_1fdfa56087b916456cc26c7efd954c09 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_594abb6c26956617bd9ff2938da3b66f = $(`<div id="html_594abb6c26956617bd9ff2938da3b66f" style="width: 100.0%; height: 100.0%;">         <b>Name:</b> Wolf Creek<br>         <b>Nearest City:</b> Pagosa Springs<br>         <b>Skiable Area (acres):</b> 1,600<br>         <b>Top Elevation (feet):</b> 11,904<br>         <b>Vertical (feet):</b> 1,604<br>         <b>Runs:</b> 133<br>         <b>Lifts:</b> 9<br>         <b>Snowfall (in/year):</b> 430<br>         <b>Website:</b> <a href='https://wolfcreekski.com/area-maps/' target='_blank'>https://wolfcreekski.com/area-maps/</a><br>         <b>Phone:</b> <a href='tel:970-264-5639'>970-264-5639</a><br>         <b>Email:</b> <a href='mailto:wolfcreekski@wolfcreekski.com' target='_blank'>wolfcreekski@wolfcreekski.com</a><br>         </div>`)[0];
+                popup_1fdfa56087b916456cc26c7efd954c09.setContent(html_594abb6c26956617bd9ff2938da3b66f);
+            
+        
+
+        marker_1b47143cbfd2baadb7af6deb9ccc098d.bindPopup(popup_1fdfa56087b916456cc26c7efd954c09)
+        ;
+
+        
+    
+    
+            tile_layer_c4d29509b0ff9ebdbf9053de8ea6f4d6.addTo(map_94337f9dd16552065017164a86f82854);
+        
+</script>
+</html>
