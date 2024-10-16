@@ -1,29 +1,29 @@
-Name,Nearest city,Skiable area (acres),Top elevation (feet),Base elevation (feet),Vertical (feet),Runs,Lifts,Snowfall (in/year),Latitude,Longitude,Website,Phone Number,Email
-Arapahoe Basin,Dillon,"1,428","13,050","10,520","2,530",147,9,314,39.6421261,-105.872464,http://arapahoebasin.com/,888-272-7246,guestservices@a-basin.net
-Aspen Highlands,Aspen,"1,040","12,392","8,040","4,352",117,5,300,39.181111,-106.856389,https://www.aspensnowmass.com/four-mountains/aspen-highlands,800-525-6200,contactus@aspensnowmass.com
-Aspen Mountain,Aspen,675,"11,212","7,945","3,267",76,8,300,39.186485,-106.818264,https://www.aspensnowmass.com/four-mountains/aspen-mountain,800-525-6200,contactus@aspensnowmass.com
-Beaver Creek,Beaver Creek,"1,832","11,440","8,100","3,340",150,23,325,39.602398,-106.516914,https://www.beavercreek.com/the-mountain/about-the-mountain/mountain-info.aspx,970-754-0005,info@beavercreekresortcompany.com
-Breckenridge,Breckenridge,"2,908","12,998","9,600","3,398",187,34,282,39.47388,-106.07391,https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx,970-453-5000,breckinfo@vailresorts.com
-Buttermilk,Aspen,470,"9,900","7,870","2,030",44,8,200,39.18361111,-106.8966667,https://www.aspensnowmass.com/four-mountains/buttermilk,800-525-6200,contactus@aspensnowmass.com
-Ski Cooper,Leadville,470,"11,700","10,500","1,200",60,5,260,39.3605437,-106.3022475,https://www.skicooper.com/,719-486-2277,info@skicooper.com
-Copper Mountain,Copper Mountain,"2,490","12,441","9,712","2,738",140,24,278,39.499917,-106.155921,https://www.coppercolorado.com/,866-656-1546,info@coppercolorado.com
-Crested Butte,Crested Butte,"1,547","12,162","9,375","2,787",121,15,253,38.8698,-106.984,https://www.skicb.com/the-mountain/about-the-mountain/mountain-info.aspx,877-547-5143,info@skicb.com
-Echo Mountain,Evergreen,60,"10,650","10,050",600,13,3,275,39.68500,-105.51900,https://echomtn.com/,970-531-5038,info@echomtn.com
-Eldora,Nederland,680,"10,600","9,200","1,400",63,10,225,39.937529,-105.582795,https://www.eldora.com/,303-440-8700,info@eldora.com
-Granby Ranch,Granby,406,"9,202","8,202","1,000",35,6,200,39.92000,-105.79000,https://granbyranch.com/,888-850-4615,info@granbyranch.com
-Hesperus,Hesperus,60,"8,880","8,100",700,13,2,150,37.299593,-108.055101,https://www.ski-hesperus.com,970-385-2199,info@ski-hesperus.com
-Howelsen,Steamboat Springs,50,"7,136","6,696",440,17,1,170,40.48300,-106.83700,https://steamboatsprings.net/131/Howelsen-Hill-Ski-Area,970-879-4300 ,info@steamboatsprings.net
-Kendall,Silverton,16,"9,540","9,300",240,11,1,200,37.81100,-107.65700,https://www.skikendall.com/,970-759-5557,info@skikendall.com
-Keystone,Keystone,"3,148","12,408","9,280","3,128",128,20,235,39.6073,-105.9701,https://www.keystoneresort.com/the-mountain/about-the-mountain/mountain-info.aspx,970-754-0001,keystoneinfo@vailresorts.com
-Loveland,Dillon,"1,800","13,010","10,800","2,210",94,11,422,39.680654,-105.895886,https://skiloveland.com/the-mountain/trail-map-mountain-stats/,800-736-3SKI,Loveland@skiloveland.com
-Monarch,Salida,800,"11,960","10,790","1,170",54,5,284,38.51307207,-106.3302545,https://skimonarch.com/,719-530-5000,info@skimonarch.com
-Powderhorn,Grand Junction,"1,600","9,850","8,200","1,650",50,4,250,39.0674809,-108.1589662,https://www.powderhorn.com/,1-970-268-5700,ski@powderhorn.com
-Purgatory,Durango,"1,650","10,822","8,793","2,029",105,12,260,37.62444,-107.82812,https://www.purgatory.ski/,970-385-2100,info@purgatory.ski
-Silverton Mountain,Silverton,"1,819","13,487","10,400","3,087",69,1,400,37.82000,-107.66000,https://silvertonmountain.com/mountain/stats/,970-387-5706,info@silvertonmountain.com
-Snowmass,Snowmass Village,"3,339","12,510","8,104","4,406",98,21,295,39.19694444,-106.9444444,https://www.aspensnowmass.com/four-mountains/snowmass,800-525-6200,contactus@aspensnowmass.com
-Steamboat,Steamboat Springs,"3,741","10,568","6,900","3,668",169,18,368,40.80000,-106.95000,https://www.steamboat.com/the-mountain/mountain-stats,800-922-2722,info@steamboat.com
-Sunlight,Glenwood Springs,680,"9,895","7,885","2,010",67,4,252,39.3997841,-107.3409507,https://sunlightmtn.com,800-445-7931,info@sunlightmtn.com
-Telluride,Telluride,"2,000","13,150","8,725","3,790",148,17,276,37.94000,-107.82000,https://www.telluride.com/,888-605-2578,info@telski.com
-Vail,Vail,"5,317","11,570","8,120","3,450",195,31,354,39.6325,-106.3783333,https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx,888-500-5155,vailinfo@vailresorts.com
-Winter Park,Winter Park,"3,081","12,060","9,000","3,060",166,23,347,39.88000,-105.75000,https://www.winterparkresort.com,970-726-5514,wpinfo@winterparkresort.com
-Wolf Creek,Pagosa Springs,"1,600","11,904","10,300","1,604",133,9,430,37.48302755,-106.7974048,https://wolfcreekski.com/area-maps/,970-264-5639,wolfcreekski@wolfcreekski.com
+Name,Nearest city,Skiable area (acres),Top elevation (feet),Base elevation (feet),Vertical (feet),Runs,Lifts,Snowfall (in/year),Latitude,Longitude,Website,Phone Number,Tel,Email
+Arapahoe Basin,Dillon,"1,428","13,050","10,520","2,530",147,9,314,39.6421261,-105.872464,http://arapahoebasin.com/,888-272-7246,8882727246,guestservices@a-basin.net
+Aspen Highlands,Aspen,"1,040","12,392","8,040","4,352",117,5,300,39.181111,-106.856389,https://www.aspensnowmass.com/four-mountains/aspen-highlands,800-525-6200,8005256200,contactus@aspensnowmass.com
+Aspen Mountain,Aspen,675,"11,212","7,945","3,267",76,8,300,39.186485,-106.818264,https://www.aspensnowmass.com/four-mountains/aspen-mountain,800-525-6200,8005256200,contactus@aspensnowmass.com
+Beaver Creek,Beaver Creek,"1,832","11,440","8,100","3,340",150,23,325,39.602398,-106.516914,https://www.beavercreek.com/the-mountain/about-the-mountain/mountain-info.aspx,970-754-0005,9707540005,info@beavercreekresortcompany.com
+Breckenridge,Breckenridge,"2,908","12,998","9,600","3,398",187,34,282,39.47388,-106.07391,https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info.aspx,970-453-5000,9704535000,breckinfo@vailresorts.com
+Buttermilk,Aspen,470,"9,900","7,870","2,030",44,8,200,39.18361111,-106.8966667,https://www.aspensnowmass.com/four-mountains/buttermilk,800-525-6200,8005256200,contactus@aspensnowmass.com
+Ski Cooper,Leadville,470,"11,700","10,500","1,200",60,5,260,39.3605437,-106.3022475,https://www.skicooper.com/,719-486-2277,7194862277,info@skicooper.com
+Copper Mountain,Copper Mountain,"2,490","12,441","9,712","2,738",140,24,278,39.499917,-106.155921,https://www.coppercolorado.com/,866-656-1546,8666561546,info@coppercolorado.com
+Crested Butte,Crested Butte,"1,547","12,162","9,375","2,787",121,15,253,38.8698,-106.984,https://www.skicb.com/the-mountain/about-the-mountain/mountain-info.aspx,877-547-5143,8775475143,info@skicb.com
+Echo Mountain,Evergreen,60,"10,650","10,050",600,13,3,275,39.68500,-105.51900,https://echomtn.com/,970-531-5038,9705315038,info@echomtn.com
+Eldora,Nederland,680,"10,600","9,200","1,400",63,10,225,39.937529,-105.582795,https://www.eldora.com/,303-440-8700,3034408700,info@eldora.com
+Granby Ranch,Granby,406,"9,202","8,202","1,000",35,6,200,39.92000,-105.79000,https://granbyranch.com/,888-850-4615,8888504615,info@granbyranch.com
+Hesperus,Hesperus,60,"8,880","8,100",700,13,2,150,37.299593,-108.055101,https://www.ski-hesperus.com,970-385-2199,9703852199,info@ski-hesperus.com
+Howelsen,Steamboat Springs,50,"7,136","6,696",440,17,1,170,40.48300,-106.83700,https://steamboatsprings.net/131/Howelsen-Hill-Ski-Area,970-879-4300 ,9708794300 ,info@steamboatsprings.net
+Kendall,Silverton,16,"9,540","9,300",240,11,1,200,37.81100,-107.65700,https://www.skikendall.com/,970-759-5557,9707595557,info@skikendall.com
+Keystone,Keystone,"3,148","12,408","9,280","3,128",128,20,235,39.6073,-105.9701,https://www.keystoneresort.com/the-mountain/about-the-mountain/mountain-info.aspx,970-754-0001,9707540001,keystoneinfo@vailresorts.com
+Loveland,Dillon,"1,800","13,010","10,800","2,210",94,11,422,39.680654,-105.895886,https://skiloveland.com/the-mountain/trail-map-mountain-stats/,800-736-3SKI,8007363SKI,Loveland@skiloveland.com
+Monarch,Salida,800,"11,960","10,790","1,170",54,5,284,38.51307207,-106.3302545,https://skimonarch.com/,719-530-5000,7195305000,info@skimonarch.com
+Powderhorn,Grand Junction,"1,600","9,850","8,200","1,650",50,4,250,39.0674809,-108.1589662,https://www.powderhorn.com/,1-970-268-5700,9702685700,ski@powderhorn.com
+Purgatory,Durango,"1,650","10,822","8,793","2,029",105,12,260,37.62444,-107.82812,https://www.purgatory.ski/,970-385-2100,9703852100,info@purgatory.ski
+Silverton Mountain,Silverton,"1,819","13,487","10,400","3,087",69,1,400,37.82000,-107.66000,https://silvertonmountain.com/mountain/stats/,970-387-5706,9703875706,info@silvertonmountain.com
+Snowmass,Snowmass Village,"3,339","12,510","8,104","4,406",98,21,295,39.19694444,-106.9444444,https://www.aspensnowmass.com/four-mountains/snowmass,800-525-6200,8005256200,contactus@aspensnowmass.com
+Steamboat,Steamboat Springs,"3,741","10,568","6,900","3,668",169,18,368,40.80000,-106.95000,https://www.steamboat.com/the-mountain/mountain-stats,800-922-2722,8009222722,info@steamboat.com
+Sunlight,Glenwood Springs,680,"9,895","7,885","2,010",67,4,252,39.3997841,-107.3409507,https://sunlightmtn.com,800-445-7931,8004457931,info@sunlightmtn.com
+Telluride,Telluride,"2,000","13,150","8,725","3,790",148,17,276,37.94000,-107.82000,https://www.telluride.com/,888-605-2578,8886052578,info@telski.com
+Vail,Vail,"5,317","11,570","8,120","3,450",195,31,354,39.6325,-106.3783333,https://www.vail.com/the-mountain/about-the-mountain/mountain-info.aspx,888-500-5155,8885005155,vailinfo@vailresorts.com
+Winter Park,Winter Park,"3,081","12,060","9,000","3,060",166,23,347,39.88000,-105.75000,https://www.winterparkresort.com,970-726-5514,9707265514,wpinfo@winterparkresort.com
+Wolf Creek,Pagosa Springs,"1,600","11,904","10,300","1,604",133,9,430,37.48302755,-106.7974048,https://wolfcreekski.com/area-maps/,970-264-5639,9702645639,wolfcreekski@wolfcreekski.com
